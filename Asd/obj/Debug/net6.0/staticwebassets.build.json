@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lNDay88PTwFWwjxxa8pO0nLk/UTnCZoCtoPiWCeY+D8=",
+  "Hash": "QPbqF2cCpetNI7D9PoyGHU5UPjcoSUll1w4s5MpxR1s=",
   "Source": "Asd",
   "BasePath": "_content/Asd",
   "Mode": "Default",
@@ -8,19 +8,70 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "Asd\\wwwroot",
+      "Name": "Asd/wwwroot",
       "Source": "Asd",
-      "ContentRoot": "C:\\Users\\khlop\\source\\repos\\flowers\\Asd\\wwwroot\\",
+      "ContentRoot": "/Users/artem/RiderProjects/flowers/Asd/wwwroot/",
       "BasePath": "_content/Asd",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\khlop\\source\\repos\\flowers\\Asd\\wwwroot\\css\\style.css",
+      "Identity": "/Users/artem/RiderProjects/flowers/Asd/obj/Debug/net6.0/scopedcss/bundle/Asd.styles.css",
+      "SourceId": "Asd",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/artem/RiderProjects/flowers/Asd/obj/Debug/net6.0/scopedcss/bundle/",
+      "BasePath": "_content/Asd",
+      "RelativePath": "Asd.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/artem/RiderProjects/flowers/Asd/obj/Debug/net6.0/scopedcss/bundle/Asd.styles.css"
+    },
+    {
+      "Identity": "/Users/artem/RiderProjects/flowers/Asd/obj/Debug/net6.0/scopedcss/projectbundle/Asd.bundle.scp.css",
+      "SourceId": "Asd",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/artem/RiderProjects/flowers/Asd/obj/Debug/net6.0/scopedcss/projectbundle/",
+      "BasePath": "_content/Asd",
+      "RelativePath": "Asd.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/artem/RiderProjects/flowers/Asd/obj/Debug/net6.0/scopedcss/projectbundle/Asd.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/artem/RiderProjects/flowers/Asd/wwwroot/.DS_Store",
       "SourceId": "Asd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\khlop\\source\\repos\\flowers\\Asd\\wwwroot\\",
+      "ContentRoot": "/Users/artem/RiderProjects/flowers/Asd/wwwroot/",
+      "BasePath": "_content/Asd",
+      "RelativePath": ".DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/.DS_Store"
+    },
+    {
+      "Identity": "/Users/artem/RiderProjects/flowers/Asd/wwwroot/css/style.css",
+      "SourceId": "Asd",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/artem/RiderProjects/flowers/Asd/wwwroot/",
       "BasePath": "_content/Asd",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
@@ -31,13 +82,30 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\style.css"
+      "OriginalItemSpec": "wwwroot/css/style.css"
     },
     {
-      "Identity": "C:\\Users\\khlop\\source\\repos\\flowers\\Asd\\wwwroot\\images\\icon.png",
+      "Identity": "/Users/artem/RiderProjects/flowers/Asd/wwwroot/flowerImages/04.18.2023.jpg",
       "SourceId": "Asd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\khlop\\source\\repos\\flowers\\Asd\\wwwroot\\",
+      "ContentRoot": "/Users/artem/RiderProjects/flowers/Asd/wwwroot/",
+      "BasePath": "_content/Asd",
+      "RelativePath": "flowerImages/04.18.2023.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/flowerImages/04.18.2023.jpg"
+    },
+    {
+      "Identity": "/Users/artem/RiderProjects/flowers/Asd/wwwroot/images/icon.png",
+      "SourceId": "Asd",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/artem/RiderProjects/flowers/Asd/wwwroot/",
       "BasePath": "_content/Asd",
       "RelativePath": "images/icon.png",
       "AssetKind": "All",
@@ -48,24 +116,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\icon.png"
-    },
-    {
-      "Identity": "C:\\Users\\khlop\\source\\repos\\flowers\\Asd\\wwwroot\\images\\pions.jpeg",
-      "SourceId": "Asd",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\khlop\\source\\repos\\flowers\\Asd\\wwwroot\\",
-      "BasePath": "_content/Asd",
-      "RelativePath": "images/pions.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\pions.jpeg"
+      "OriginalItemSpec": "wwwroot/images/icon.png"
     }
   ]
 }

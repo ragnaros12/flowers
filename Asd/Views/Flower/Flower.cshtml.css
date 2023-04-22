@@ -1,0 +1,19 @@
+
+.flower-item-container{
+    display: flex;
+    flex-direction: column;
+}
+.top-flower-item-data{
+    display: flex;
+    justify-content: space-around;
+}
+.flower-image{
+    width: 45%;
+}
+.flower-item-texts-container{
+    width: 45%;
+}
+.flower-price{
+    font-size: 20px;
+    margin-top: 20px;
+}

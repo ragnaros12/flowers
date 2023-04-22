@@ -1,32 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\khlop\\source\\repos\\flowers\\Asd\\Asd.csproj": {}
+    "/Users/artem/RiderProjects/flowers/Asd/Asd.csproj": {}
   },
   "projects": {
-    "C:\\Users\\khlop\\source\\repos\\flowers\\Asd\\Asd.csproj": {
+    "/Users/artem/RiderProjects/flowers/Asd/Asd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\khlop\\source\\repos\\flowers\\Asd\\Asd.csproj",
+        "projectUniqueName": "/Users/artem/RiderProjects/flowers/Asd/Asd.csproj",
         "projectName": "Asd",
-        "projectPath": "C:\\Users\\khlop\\source\\repos\\flowers\\Asd\\Asd.csproj",
-        "packagesPath": "C:\\Users\\khlop\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\khlop\\source\\repos\\flowers\\Asd\\obj\\",
+        "projectPath": "/Users/artem/RiderProjects/flowers/Asd/Asd.csproj",
+        "packagesPath": "/Users/artem/.nuget/packages/",
+        "outputPath": "/Users/artem/RiderProjects/flowers/Asd/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\khlop\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/artem/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,6 +39,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.16, )"
@@ -52,6 +50,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.16, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.8, )"
             }
           },
           "imports": [
@@ -73,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
         }
       }
     }

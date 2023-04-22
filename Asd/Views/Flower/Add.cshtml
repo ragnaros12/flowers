@@ -1,0 +1,21 @@
+﻿@using Microsoft.AspNetCore.Mvc.ModelBinding
+@model CreationFlower
+
+<form asp-action="Add" method="post" enctype="multipart/form-data">
+    <input type="text" asp-for="Name" value="@Model.Name" placeholder="Введите имя"/>
+    <input type="text" asp-for="Compound" value="@Model.Compound" placeholder="Введите состав"/>
+    <input type="text" asp-for="Description" value="@Model.Description" placeholder="Введите описание" />
+    <input type="number" asp-for="Price" value="@Model.Price" placeholder="Введите цену" />
+    <input type="number" asp-for="Height" value="@Model.Height" placeholder="Введите высоту" />
+    <input type="number" asp-for="Width" value="@Model.Width" placeholder="Введите ширину" />
+    <input type="file" accept="image/*" asp-for="@Model.Image" placeholder="Выберите картинку цветка" />
+
+    <input type="submit"/>
+</form>
+
+<div class="errors">
+    @foreach (ModelError error in ViewBag.errors)
+    {
+        <div class="error">@error.ErrorMessage</div><br/>
+    }
+</div>

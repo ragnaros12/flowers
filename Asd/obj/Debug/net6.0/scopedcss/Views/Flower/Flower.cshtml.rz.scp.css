@@ -1,0 +1,19 @@
+
+.flower-item-container[b-mbsfxrcz7f]{
+    display: flex;
+    flex-direction: column;
+}
+.top-flower-item-data[b-mbsfxrcz7f]{
+    display: flex;
+    justify-content: space-around;
+}
+.flower-image[b-mbsfxrcz7f]{
+    width: 45%;
+}
+.flower-item-texts-container[b-mbsfxrcz7f]{
+    width: 45%;
+}
+.flower-price[b-mbsfxrcz7f]{
+    font-size: 20px;
+    margin-top: 20px;
+}

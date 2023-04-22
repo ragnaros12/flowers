@@ -1,4 +1,6 @@
 using Asd;
+using Asd.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,8 +8,10 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<Database>((options) => {
-    options.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=FlowersApp;Trusted_Connection=True");
+    options.UseNpgsql("Server=localhost;Port=5432;User Id=postgres;Password=postgres;Database=flowers;");
 });
+builder.Services.AddIdentity<User, IdentityRole>()
+    .AddEntityFrameworkStores<Database>();
 
 var app = builder.Build();
 
@@ -24,6 +28,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

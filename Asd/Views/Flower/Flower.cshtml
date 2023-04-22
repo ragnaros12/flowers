@@ -1,0 +1,18 @@
+@model Flower
+
+
+<div class="flower-item-container">
+    <div class="top-flower-item-data">
+        <img class="flower-image" src="~/@Model.Image"/>
+        <div class="flower-item-texts-container">
+            <h1 class="flower-name">@Model.Name</h1>
+            <div class="flower-price">@Model.Price</div>
+        </div>
+    </div>
+    <h2>Хараетристики</h2>
+    <div class="flower-characteristics-container">
+        <div class="flower-characteristic">Высота букета: @Model.Height</div>
+        <div class="flower-characteristic">Ширина букета: @Model.Width</div>
+        <div class="flower-characteristic">Состав букета: @Model.Compound</div>
+    </div>
+</div>

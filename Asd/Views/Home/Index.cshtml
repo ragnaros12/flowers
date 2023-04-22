@@ -12,7 +12,7 @@
             <div class="flower-description">@(flower.Description.Length > 50 ? flower.Description.Substring(0, 50) : flower.Description)</div>
             <div class="flower-price">@flower.Price руб.</div>
             <div class="flower-height">@flower.Height см.</div>
-            <a class="flower-more" href="Home/Flowers?id=@flower.Id">Подробнее</a>
+            <a class="flower-more" href="Flower/Flower?id=@flower.Id">Подробнее</a>
         </div>
     }
 </div>
